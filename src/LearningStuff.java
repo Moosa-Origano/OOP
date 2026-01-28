@@ -16,14 +16,16 @@ public class LearningStuff {
 
     // method overloading exists, so diff functions can have tge same name for different return types
 
-
     static int adding(int x, int y) {
         return x + y;
     }
 
-    static double adding(double x, double y) {
-        return x + y;
+    static double[] adding(double x, double y) {
+        double[] arr = {x};
+        return arr;
     }
+
+
 
 
     public static void main(String[] args) {
@@ -32,8 +34,6 @@ public class LearningStuff {
         names("Moosa", 19);
         System.out.println(adding(5,7)); // function
         System.out.println(adding(5.35,7.67));
-
-
 
         System.out.println(returningFunction(10));
 
