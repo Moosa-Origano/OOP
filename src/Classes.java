@@ -2,9 +2,13 @@ public class Classes {
     String FirstCar = "Volvo";
     String SecondCar;
     String ThirdCar;
+    int Random;
 
-    public Classes() {
+    public Classes(int r) {
         ThirdCar = "ConstructorVaribale";
+        Random = r;
+
+
     }
 
     static void Speedometer(int speed) {
@@ -13,8 +17,8 @@ public class Classes {
     }
 
     public static void main(String[] args) {
-        Classes Owner = new Classes();
-        Classes Owner2 = new Classes();
+        Classes Owner = new Classes(5);
+        Classes Owner2 = new Classes(6);
         TestClass Demonstration = new TestClass();
 
         Owner.SecondCar = "BMW";
