@@ -26,8 +26,6 @@ public class LearningStuff {
     }
 
 
-
-
     public static void main(String[] args) {
 
         myMethod();
